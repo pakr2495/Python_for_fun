@@ -1,0 +1,98 @@
+{
+    "page": 1,
+    "per_page": 10,
+    "total": 125,
+    "total_pages": 13,
+    "data": [
+      {
+        "competition": "UEFA Champions League",
+        "year": 2015,
+        "round": "GroupC",
+        "team1": "Galatasaray",
+        "team2": "Atletico Madrid",
+        "team1goals": "0",
+        "team2goals": "2"
+      },
+      {
+        "competition": "UEFA Champions League",
+        "year": 2015,
+        "round": "GroupD",
+        "team1": "Sevilla",
+        "team2": "Borussia Monchengladbach",
+        "team1goals": "3",
+        "team2goals": "0"
+      },
+      {
+        "competition": "UEFA Champions League",
+        "year": 2015,
+        "round": "GroupB",
+        "team1": "VfL Wolfsburg",
+        "team2": "CSKA Moskva",
+        "team1goals": "1",
+        "team2goals": "0"
+      },
+      {
+        "competition": "UEFA Champions League",
+        "year": 2015,
+        "round": "GroupC",
+        "team1": "SL Benfica",
+        "team2": "Astana",
+        "team1goals": "2",
+        "team2goals": "0"
+      },
+      {
+        "competition": "UEFA Champions League",
+        "year": 2015,
+        "round": "GroupD",
+        "team1": "Manchester City",
+        "team2": "Juventus",
+        "team1goals": "1",
+        "team2goals": "2"
+      },
+      {
+        "competition": "UEFA Champions League",
+        "year": 2015,
+        "round": "GroupA",
+        "team1": "Paris Saint-Germain",
+        "team2": "Malmo FF",
+        "team1goals": "2",
+        "team2goals": "0"
+      },
+      {
+        "competition": "UEFA Champions League",
+        "year": 2015,
+        "round": "GroupB",
+        "team1": "PSV Eindhoven",
+        "team2": "Manchester United",
+        "team1goals": "2",
+        "team2goals": "1"
+      },
+      {
+        "competition": "UEFA Champions League",
+        "year": 2015,
+        "round": "GroupA",
+        "team1": "Real Madrid",
+        "team2": "Shakhtar Donetsk",
+        "team1goals": "4",
+        "team2goals": "0"
+      },
+      {
+        "competition": "UEFA Champions League",
+        "year": 2015,
+        "round": "GroupF",
+        "team1": "Dinamo Zagreb",
+        "team2": "Arsenal",
+        "team1goals": "2",
+        "team2goals": "1"
+      },
+      {
+        "competition": "UEFA Champions League",
+        "year": 2015,
+        "round": "GroupE",
+        "team1": "AS Roma",
+        "team2": "Barcelona",
+        "team1goals": "1",
+        "team2goals": "1"
+      }
+    ]
+  }
