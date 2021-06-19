@@ -1,0 +1,192 @@
+1 what is time complexity ?
+
+
+In computer science, the time complexity is the computational complexity that describes the amount of computer time it takes to run an algorithm. 
+Time complexity is commonly estimated by counting the number of elementary operations performed by the algorithm, supposing that each elementary operation takes a fixed amount of time to perform. 
+Thus, the amount of time taken and the number of elementary operations performed by the algorithm are taken to differ by at most a constant factor.
+
+
+worst case complexity - maximum number of computer time it takes to run an algorithm
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2 when to use set and when to use list?
+
+
+list - when you want to have ordered collection we use list and duplicate values , non hashable elements
+
+set - when you are not woried  about order or duplicate element .When speed and performance matters most use set . Set requires has able element
+
+dict - Do you need to associate values with keys, so you can look them up efficiently (by key) later on? Use a dictionary.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Hashing:
+https://runestone.academy/runestone/books/published/pythonds/SortSearch/Hashing.html
+https://en.wikipedia.org/wiki/Hash_function
+https://stackoverflow.com/questions/14535730/what-does-hashable-mean-in-python
+
+Things to know,
+
+1 hash table
+
+2 hashable object
+
+3 hash function
+
+4 collision
+
+5 avoding collison
+
+6 hash value
+
+7 __hash__()
+
+8 hash()
+
+9 immutable objects are hash able
+------------------------------------------------------------------------------------------------------------------------
+3 when to use keyword argumnets in functions?
+
+when you are not worrried about positions in a function we can used keyword arguments . Only key has to be proper
+
+1 positional argument
+
+2 variable length
+
+3 default value
+
+4 keyword argument
+
+--------------------------------------------------------------------------------------------------------------------------------
+4 When we will use generator object ?
+
+http://thepythoncorner.com/dev/generators-in-python-should-i-use-them/
+
+Generators in Python are just another way of creating iterable objects and are usually used when you need to create iterable object quickly, without the need of creating a class and adopting the iteration protocol. 
+To create a generator you just need to define a function and then use the yield keyword instead of return. values are generated in lazy way .Please note that once we have consumed the generator, 
+we can’t use it anymore because generators in Python can’t be rewound.
+
+1 Do I need all the items of the returned list?
+2 Memory issues?
+3 just to display the data
+4 when you want to search output of function against values
+5 for faster execution
+
+-------------------------------------------------------------------------------------------------------------------------------------
+5 what are data class?
+
+Among the new features of Python 3.7, a new one is the decorator @dataclass that simplify the creation of data classes by auto-generating special methods such as __init__() and __repr__().
+
+Mainly to store state of data
+
+A data class is a class whose main purpose is to store data without functionality. This kind of class, also known as data structure, is very common. For example, a class used to store the coordinates of a point is simply a class with 3 fields (x, y, z).
+
+However, we often need to add a constructor, a representation method, a comparison function, etc. These functions are cumbersome, and this is precisely what should be handled transparently by the language.
+
+
+Data classes are available for Python 3.7 or above. You can use data classes as a data container but not only. 
+Data classes also write boiler-plate code for you and simplify the process of creating classes because it comes with some methods implemented for free
+
+The @dataclass decorator accepts a list of parameters to control which methods should be generated:
+
+
+
+init: if True, generates the __init__ method.
+repr: if True, generates the __repr__ method.
+eq: if True, generates the __eq__ method by comparing the fields as they were tuples.
+order: if True, generates the __lt__, __le__, __gt__, and __ge__ methods.
+unsafe_hash: if False, generates the __hash__ method depending on the values of eq and frozen. If True, the __hash__ function will be generated.
+frozen: if True, then the instances will be immutable (read-only).
+
+
+link : https://towardsdatascience.com/data-classes-in-python-8d1a09c1294b
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+6 what is ducktyping?
+
+polymorphisum
+
+x = 2 
+x = 'test'
+
+same function or variable that acts differently according to the input
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+7 what is tuple un packing ?
+
+extracting the values from a tuple
+
+Ex a = (1,2,3)
+(a1,a2,a3) = a
+print(a1)
+----------------------------------------------------------------------------------------------------------------------------
+8 In dict how can we avoid key error ?
+
+using get method, get method retruns none , also can specify default value 
+ d = {'a' : 2 , 'b' : 3 }
+ d.get('c',3)
+-------------------------------------------------------------------------------------------------------------------------------
+9 what are decorators ?
+
+Decorators are very powerful and useful tool in Python since it allows programmers to modify the behavior of function or class.
+Decorators allow us to wrap another function in order to extend the behavior of the wrapped function, 
+without permanently modifying it. But before diving deep into decorators let us understand some concepts that will come in handy in learning the decorators.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+10 What is virtual environment ?
+
+Problem:
+By default all the external packages are defined in one common location.
+Consider the following scenario where you have two projects: ProjectA and ProjectB, both of which have a dependency on the same library,
+both project requires different versions of same module.This is a real problem for Python since it can’t differentiate between versions in the site-packages directory.
+So both v1.0.0 and v2.0.0 would reside in the same directory with the same name.
+
+Defination:
+At its core, the main purpose of Python virtual environments is to create an isolated environment for Python projects. 
+This means that each project can have its own dependencies, regardless of what dependencies every other project has.
+
+Install:
+pip install virtualenv or venv(python 3)
+
+Command:
+python3 -m venv env  - To create virtual env
+source env/bin/activate - To activate
+(./activate)
+
+
+
+
+├── bin
+│   ├── activate
+│   ├── activate.csh
+│   ├── activate.fish
+│   ├── easy_install
+│   ├── easy_install-3.5
+│   ├── pip
+│   ├── pip3
+│   ├── pip3.5
+│   ├── python -> python3.5
+│   ├── python3 -> python3.5
+│   └── python3.5 -> /Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5
+├── include
+├── lib
+│   └── python3.5
+│       └── site-packages
+└── pyvenv.cfg
+
+bin: files that interact with the virtual environment
+include: C headers that compile the Python packages
+lib: a copy of the Python version along with a site-packages folder where each dependency is installed
+
+More interesting are the activate scripts in the bin directory. These scripts are used to set up your shell to use the environment’s Python executable and its site-packages by default.
+
+In order to use this environment’s packages/resources in isolation, you need to “activate” it. To do this, just run the following:
+
+
+
+
+
+
+
+
