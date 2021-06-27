@@ -182,11 +182,86 @@ lib: a copy of the Python version along with a site-packages folder where each d
 More interesting are the activate scripts in the bin directory. These scripts are used to set up your shell to use the environment’s Python executable and its site-packages by default.
 
 In order to use this environment’s packages/resources in isolation, you need to “activate” it. To do this, just run the following:
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+https://trstringer.com/logging-flask-gunicorn-the-manageable-way/  - Gunicorn logging
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+11 What is workes in gunicorn ? is dependent on hardware?
+
+link : https://docs.gunicorn.org/en/stable/design.html
+
+Worker process is responsible for handling the request .It is directly dependent on hardware, if we increase the core , we can increase the worker process as well .
+Ideal scenario 2*core + 1
+
+Different types of worker
+
+1 sync worker - one request at a time
+
+2 async worker
 
 
 
+using GUNICORN_CMD_ARGS to specify the configuration:
+
+ GUNICORN_CMD_ARGS="--bind=127.0.0.1 --workers=3" gunicorn app:app
+
+Settings in Gunicorn
+
+1 config(-c , --config) - defaultname guincon.conf.py
+2 WSGI_APP($MODULE_NAME:$VARIABLE_NAME)
+3 reload(--reload)
+4 reload_engine
+5 reload_extra_files
+6 loglevel
+7 accesslog
+8 errorlog
+9 access_log_format
+10 bind
+11 workers
+12 worker_class
+13 threadsss
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+12 what is microservice architecture?
+https://medium.com/hashmapinc/the-what-whassss-and-how-of-a-microservices-architecture-4179579423a9#id_token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjE5ZmUyYTdiNjc5NTIzOTYwNmNhMGE3NTA3OTRhN2JkOWZkOTU5NjEiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJuYmYiOjE2MjQxNzEyMDMsImF1ZCI6IjIxNjI5NjAzNTgzNC1rMWs2cWUwNjBzMnRwMmEyamFtNGxqZGNtczAwc3R0Zy5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjExNzM4MzY2MjA2MDgwODk3MzU4OSIsImVtYWlsIjoicGF2YW5rcmlzaG5hMTk5NUBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXpwIjoiMjE2Mjk2MDM1ODM0LWsxazZxZTA2MHMydHAyYTJqYW00bGpkY21zMDBzdHRnLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwibmFtZSI6IlBhdmFuIEtyaXNobmEiLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EtL0FPaDE0R2h0NGh4dWIxc2tDN0ZBcWVlTDhOOXlOSDdHV2FmOWFwVkJaWXR3VXc9czk2LWMiLCJnaXZlbl9uYW1lIjoiUGF2YW4iLCJmYW1pbHlfbmFtZSI6IktyaXNobmEiLCJpYXQiOjE2MjQxNzE1MDMsImV4cCI6MTYyNDE3NTEwMywianRpIjoiYzFjMDg5MzhmMmNiYmUyYzliZTE5MTAxN2FjNTIzMTE2NzNlNTFlOCJ9.qxXMNzBRIYL0ujeiMstSIvd8afVgWFM6-WmJL3OC2KraHEILoevTOR5rId3LMa5EoHnu99zklkVT4PJf8HpR_nponTLxuHkt4HivXhikS2qnobjo94WKQTQzCM2nPNE24SxWneAYqDSKGzmGOdACIlzaaLWeuHztb2XFRraVmrhF_2BGIrqdFeo9ETkPo0AfkvUHjSs1-pyTHBtIti1aLL2_MyqobuvHInIXAPODF78EUzmXB4CnkQBZo2N0MmzWXFV4CZ8BNIKNzt2LvujZnguRIPZEni3C79d-fIq2ox20m1AxXbUJW48Nd6kENy3OKMklbLcwh1A1RWFOxI2JkA
+
+https://www.bmc.com/blogs/microservices-architecture/#
 
 
+Its loosely coupled services which can be developed, deployed, and maintained independently. 
+Each of these services is responsible for discrete task and can communicate with other services through simple APIs to solve a larger complex business problem.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+13 Difference between multithreading vs multiprocessing ?
+
+1  It’s better to use multi-threading for tasks that involve large I/O operations (to avoid idle)
+2  it’s better to use multi-processing for tasks involving Huge computations of the CPU
+3 can't share data in multi-processing
+4 can share data in multithreading
+
+https://towardsdatascience.com/python-multi-threading-vs-multi-processing-1e2561eb8a24
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+14 what is Global Interpreter lock ?
+https://www.guru99.com/python-multithreading-gil-example.html
+
+1 gil 
+2 lock
+3 race condition
+4 shared resource
+5 reference counting
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+15  Memory management in python?
+
+https://www.geeksforgeeks.org/memory-management-in-python/
+
+1 reference counting
+2 python memmory manager
+3 stack memory - function
+4 heap memory - 
+5 Python does automatic grabage collections
+--------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
