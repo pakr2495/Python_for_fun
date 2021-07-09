@@ -262,6 +262,36 @@ https://www.geeksforgeeks.org/memory-management-in-python/
 4 heap memory - 
 5 Python does automatic grabage collections
 --------------------------------------------------------------------------------------------------------------------------------------------
+16 what is pickling and un pickling ?
 
+https://www.codesansar.com/python-programming/what-is-pickling-and-unpickling.htm
 
+-----------------------------------------------------------------------------------------------------------------------------------------
+17 Why static method ?
 
+https://stackoverflow.com/questions/2438473/what-is-the-advantage-of-using-static-methods-in-python/2438627
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+18 what is the use of __init__.py?
+
+https://stackoverflow.com/questions/448271/what-is-init-py-for
+-----------------------------------------------------------------------------------------------------------------------------------------------
+19 what all types can be used as keys in python dict?
+
+All immutable types can be used as keys in dict including boolean
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+20 When does Value error,Name Error, Syntax Error, Index Error occur ?
+
+https://cs.carleton.edu/cs_comps/1213/pylearn/final_results/encyclopedia/valueError.html
+
+Value Error - invalid type casting (ex: int('s')), removing an element from list when the element does not exist.
+Name Error - name is not defined 
+Syntax Error - Invalid Syntax
+Index Error - Index out of range (ex: a=[];print(a[1]))
+--------------------------------------------------------------------------------------------------------------------------------------------------
+21 Name two default method in unit testing ?
+1 setup 
+2 teardown
+--------------------------------------------------------------------------------------------------------------------------------------------------
