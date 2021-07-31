@@ -295,3 +295,18 @@ Index Error - Index out of range (ex: a=[];print(a[1]))
 1 setup 
 2 teardown
 --------------------------------------------------------------------------------------------------------------------------------------------------
+22 Does No SQl uses indexing ?
+All SQL uses indexing for better performance and accessing of the data
+---------------------------------------------------------------------------------------------------------------------------------------------------
+23 When to use sql vs nosql?
+https://www.geeksforgeeks.org/sql-vs-nosql-which-one-is-better-to-use/
+--------------------------------------------------------------------------------------------
+24 Python debugger module?
+https://www.geeksforgeeks.org/python-debugger-python-pdb/
+---------------------------------------------------------------------------------------------
+25 Http head method ? does it return value ?
+https://reqbin.com/Article/HttpHead
+To get header information for a get method and only header information returned ,no data
+-----------------------------------------------------------------------------------------------
+26 What is git stash? and when it will delete?
+https://stackoverflow.com/questions/5737002/how-to-delete-a-stash-created-with-git-stash-create
