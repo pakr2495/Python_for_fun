@@ -299,7 +299,7 @@ Index Error - Index out of range (ex: a=[];print(a[1]))
 All SQL uses indexing for better performance and accessing of the data
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 23 When to use sql vs nosql?
-https://www.geeksforgeeks.org/sql-vs-nosql-which-one-is-better-to-use/
+https://www.thorntech.com/sql-vs-nosql/#:~:text=If%20your%20data%20is%20very,do%20for%20a%20SQL%20database.
 --------------------------------------------------------------------------------------------
 24 Python debugger module?
 https://www.geeksforgeeks.org/python-debugger-python-pdb/
@@ -310,3 +310,58 @@ To get header information for a get method and only header information returned 
 -----------------------------------------------------------------------------------------------
 26 What is git stash? and when it will delete?
 https://stackoverflow.com/questions/5737002/how-to-delete-a-stash-created-with-git-stash-create
+
+https://git-scm.com/docs/git-stash
+---------------------------------------------------------------------------------------------------
+
+27 What is release sprint ?
+https://scrumdictionary.com/term/release-sprint/#:~:text=The%20Release%20Sprint%20is%20when,no%20additional%20new%20feature%20development
+-------------------------------------------------------------------------------------------------------------------------------------
+
+28 What all lost while migrating from sql to nosql ?
+
+https://www.quora.com/What-will-be-the-challenge-to-migrate-data-from-NoSQL-to-SQL-database-and-vice-versa
+
+1 relationship
+2 structure
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+29 Default http method in flask?
+
+get
+-------------------------------------------------------------------------------------------------------------------------------------------------
+30 what is open api ?
+
+1 documenation for publically available api
+
+2 YAML or JSON format
+https://stoplight.io/openapi/#what-are-the-benefits-of-openapi%3F
+-----------------------------------------------------------------------------------------------------------------------------------------------
+31 Python Flask Caching?
+https://flask-caching.readthedocs.io/en/latest/
+------------------------------------------------------------------------------------------------------------------------------------------------
+32 Jenkins uses which technology to build pipelines?
+
+Pipelines are Jenkins jobs enabled by the Pipeline (formerly called “workflow”) plugin and built with simple text scripts that use a Pipeline DSL (domain-specific language) based on the Groovy programming language.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+33 Flask mail
+https://www.tutorialspoint.com/flask/flask_mail.htm
+--------------------------------------------------------------------------------------------------------------------------------------
+34 401 vs 403 ?
+
+401 - unauthorized access
+403 - valid user but dont have proper permission
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+35 can we update list which is inside tuple ?
+Yes
+
+--------------------------------------------------------------------------------------------------------------------------------
+36 What is cors?
+https://www.educative.io/blog/getting-started-cors
+
+browser mechanisum
+-----------------------------------------------------------------------------------------------------------------------------
