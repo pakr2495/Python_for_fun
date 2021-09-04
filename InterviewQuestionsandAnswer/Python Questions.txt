@@ -365,3 +365,14 @@ https://www.educative.io/blog/getting-started-cors
 
 browser mechanisum
 -----------------------------------------------------------------------------------------------------------------------------
+37 Does python support double pointer?
+No
+--------------------------------------------------------------------------------------------------------------------------------
+38 What is MRO?
+http://www.srikanthtechnologies.com/blog/python/mro.aspx
+---------------------------------------------------------------------------------------------------------------------------------
+39 What is monkey patching in python ?
+At runtime changing the attribute of a class 
+------------------------------------------------------------------------------------------------------------------------------------
+40 Second highest Salaray in SQL?
+https://stackoverflow.com/questions/7417415/how-to-get-second-highest-salary-employees-in-a-table/11872509
