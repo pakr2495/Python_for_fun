@@ -299,7 +299,6 @@ Index Error - Index out of range (ex: a=[];print(a[1]))
 All SQL uses indexing for better performance and accessing of the data
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 23 When to use sql vs nosql?
-https://www.thorntech.com/sql-vs-nosql/#:~:text=If%20your%20data%20is%20very,do%20for%20a%20SQL%20database.
 --------------------------------------------------------------------------------------------
 24 Python debugger module?
 https://www.geeksforgeeks.org/python-debugger-python-pdb/
