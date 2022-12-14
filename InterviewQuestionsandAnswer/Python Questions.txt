@@ -399,4 +399,12 @@ https://stackoverflow.com/questions/7417415/how-to-get-second-highest-salary-emp
 19 access token vs refresh token
 20 closure
 21 hoisting
+22 distributed cache
+23 connect to database without using username and password.
+24 best method  to sort a laregest data
+25 python sorting function with key argument
+26 merge sort
+27 reduce function in python
+
+
 
