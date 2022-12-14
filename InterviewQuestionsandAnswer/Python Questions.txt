@@ -375,3 +375,28 @@ At runtime changing the attribute of a class
 ------------------------------------------------------------------------------------------------------------------------------------
 40 Second highest Salaray in SQL?
 https://stackoverflow.com/questions/7417415/how-to-get-second-highest-salary-employees-in-a-table/11872509
+---------------------------------------------------------------------------------------------------------------------------------
+
+1 implement singleton class in python
+2 __new__ vs __init__
+	https://dev.to/pila/constructors-in-python-init-vs-new-2f9j#:~:text=__new__%20is%20the,instance%20after%20it's%20been%20created.
+3 Rest parameter in Angular
+4 local storage vs session storage - how to clear local storage
+	https://stackoverflow.com/questions/8537112/when-is-localstorage-cleared
+5 get vs filter in Django
+6 raw sql vs orm 
+7 serialisation
+8 angular interceptor
+9 binary tree, binary search
+10 middle where
+11 ‘2’ to int without int method
+13 sql partitioning
+14 in vs where in sql
+15 Angular observer
+16 Auth guards
+17 how indexing works 
+18 primary key vs unique key
+19 access token vs refresh token
+20 closure
+21 hoisting
+
