@@ -405,6 +405,7 @@ https://stackoverflow.com/questions/7417415/how-to-get-second-highest-salary-emp
 25 python sorting function with key argument
 26 merge sort
 27 reduce function in python
+28 virtual dom
 
 
 
