@@ -406,6 +406,24 @@ https://stackoverflow.com/questions/7417415/how-to-get-second-highest-salary-emp
 26 merge sort
 27 reduce function in python
 28 virtual dom
-
+29 react vs angular
+30 how to optimize ui performance
+31 scale an application
+32 sso implementation, authentication implmentation
+33 what are callables?
+34 how to pass arguments to decorator
+35 closure in python
+36 blueprints
+37 call backof hell
+38 promises
+39 iffo
+40 templates based deployment
+41 what are mutual tls
+42 oneway binding vs two way binding
+43 stateful pods vs stateless pods
+44 css for centorying forms
+45 positions in css
+46 how to pass data in angular
+47 effectively pass db object in flask
 
 
