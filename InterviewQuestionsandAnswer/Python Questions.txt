@@ -425,5 +425,6 @@ https://stackoverflow.com/questions/7417415/how-to-get-second-highest-salary-emp
 45 positions in css
 46 how to pass data in angular
 47 effectively pass db object in flask
+48 session storage vs local storage vs cookies
 
 
