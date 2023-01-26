@@ -416,7 +416,7 @@ https://stackoverflow.com/questions/7417415/how-to-get-second-highest-salary-emp
 36 blueprints
 37 call backof hell
 38 promises
-39 iffo
+39 iffo in javsacript
 40 templates based deployment
 41 what are mutual tls
 42 oneway binding vs two way binding
@@ -426,5 +426,10 @@ https://stackoverflow.com/questions/7417415/how-to-get-second-highest-salary-emp
 46 how to pass data in angular
 47 effectively pass db object in flask
 48 session storage vs local storage vs cookies
-
-
+49 Design gmail architecture
+50 decorator vs closure in python
+51 deep copy vs shallow copy for list within list
+52 how to handle session for large users
+53 triggram matching technique
+54 tougest problem faced in python programming
+55 google search kind of application to search documents datasource
