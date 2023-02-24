@@ -439,4 +439,15 @@ https://stackoverflow.com/questions/7417415/how-to-get-second-highest-salary-emp
 59 how to decouple database from application server
 60 implemnt your own custom promises
 61 google docs system design
-62 In microservice how can we verify that of one of the componet is down without waiting for timeout error
+62 In microservice how can we verify that of one of the componet is down without waiting for timeout error.
+63 javascript what is optional chaining(?.)
+64 built in generators in python
+65 put vs patch methods
+66 what are differnet design patterns you have worked
+67 javascript event loop promise and setTimeout which will execute first
+68  what is pwa ? what is service wroker?
+69 React life cycle methods
+70 React hooks related to performance
+71 How redux works 
+
+
