@@ -449,5 +449,6 @@ https://stackoverflow.com/questions/7417415/how-to-get-second-highest-salary-emp
 69 React life cycle methods
 70 React hooks related to performance
 71 How redux works 
+72 Meta class in python
 
 
