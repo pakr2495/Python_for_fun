@@ -450,5 +450,7 @@ https://stackoverflow.com/questions/7417415/how-to-get-second-highest-salary-emp
 70 React hooks related to performance
 71 How redux works 
 72 Meta class in python
+73 Django Signals
+74 diiferent http status codes
 
 
